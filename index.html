@@ -1,1 +1,76 @@
-<div>hello</div>
+<!--全ての掲示板を表示するページ-->
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Colorful-Wall</title>
+    <meta name="description" content="Colorful-Wallはファイル投稿機能が付いた掲示板サイトです。不適切な書き込みは削除されるので安心してご利用いただけます。">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+    <style type="text/css">
+        @media (max-width: 1000px) {
+            body{
+                font-size: 35px;
+            }
+        }
+    </style><!--word-wrapとoverflow-wrapは同じもの-->
+</head>
+<body class="container"><!--containerを入れると真ん中による-->
+    <h1 class="display-4 text-primary">
+        掲示板一覧</h1>
+        <!--<img src="/static/images/tobipen.gif" width="200px" height="200px">-->
+        <img src="/static/images/tobipen.gif" width="200px" height="200px">
+        <div class="mt-5"></div>
+        <table class="table">
+            <tr>
+                <th class="py-1">掲示板</th>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/1/1">なんでも</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/2/1">ゲーム</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/3/1">アニメ</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/4/1">漫画</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/5/1">プログラマー</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/6/1">サッカー</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/7/1">野球</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+            <tr>
+                <td class="py-2"><a href = "http://colorful-wall.com/board/thread/8/1">お悩み相談</a></td>
+            </tr>
+        
+        <!-- dataはmodels.pyのMesasgeクラス -->
+        
+        
+        
+        </table>
+</body>
+</html>
