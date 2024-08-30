@@ -1,0 +1,25 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+  }
+  
+  #thread-list {
+    margin-bottom: 20px;
+  }
+  
+  .thread {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .thread-name {
+    font-weight: bold;
+  }
+  
+  .thread-message {
+    margin-top: 5px;
+  }
+  
+  

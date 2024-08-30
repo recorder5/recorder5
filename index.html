@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡易掲示板</title>
+</head>
+<body>
+<link rel="stylesheet" href="./style.css"/>
+  <h1>掲示板</h1>
+  <div id="thread-list"></div>
+  <form id="new-thread-form">
+    <label for="name">名前:</label>
+    <input type="text" id="name">
+    <br>
+    <label for="message">本文:</label>
+    <textarea id="message" cols="64"></textarea>
+    <br>
+    <button type="submit" onclick="postMsg()">投稿</button>
+                                      <br><br><br><br>
+    <button type="submit" onclick="clearMsg()">全データクリア</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
